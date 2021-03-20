@@ -1,0 +1,71 @@
+@CHARSET "EUC-KR";
+/* Full-width input fields */
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+select{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%; 
+
+}
+
+/* Set a style for all buttons */
+.cancelbtn,.signupbtn {
+    background-color: #A1BBD0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    float: left;
+    width: 50%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    color: #3F4234;
+    background-color: #FA8072;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+h2{
+	text-align: center;
+}

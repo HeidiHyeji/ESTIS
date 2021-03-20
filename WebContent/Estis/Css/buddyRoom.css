@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.333333%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#London {background-color:#FA8072;}
+#Paris {background-color:#A1BBD0;}
+#Tokyo {background-color:#9ce08b;}
+
+.memberadd{
+	border: none;
+	background-color: white;
+	padding : 10px;
+}
+.memberadd img{
+	height: 30px;
+	width: 30px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.membertable{
+	border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.membertd{
+	border: none;
+    text-align: left;
+    padding: 8px;
+}
+.membertd2{
+	text-align: left;
+	border: none;
+    display: inline-block;
+    padding: 0 25px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+.membertd img{
+	height: 30px;
+	width: 30px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+	width: 100%;
+    height: auto;
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+.content {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}

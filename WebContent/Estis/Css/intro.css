@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body {
+   font-family: "Lato", sans-serif;
+
+}
+.menu {
+   border: 1px solid gray;
+   border-collapse: collapse;
+   padding: 10;
+   width: 100%;
+   margin: auto;
+   text-align: center;
+}
+
+.menu td {
+   border: 1px solid gray;
+   width: 34%;
+   cursor: pointer;
+}
+.introTitle b{
+   font-size: 30px;
+   padding: 5px;
+}
+.thumbnail-wrappper img { 
+  max-width: 100%; /* 이미지의 최대사이즈 */ 
+  height: auto;  
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block
+} 
+.introContents{
+   margin-bottom: 90px;
+   margin-left: 30px; 
+    margin-right: 30px; 
+}
+.subjectText ul{
+   text-align: left;
+   font-size: 16px;
+   color: Black;
+   margin: 20px;  padding: 0; 
+}
+.subjectText sub{
+   text-align: left;
+   font-size: 12px;
+   color: Gray;
+   line-height:1.5em;
+
+}

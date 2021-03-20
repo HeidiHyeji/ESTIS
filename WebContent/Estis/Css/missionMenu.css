@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.menu {
+   border: 1px solid gray;
+   border-collapse: collapse;
+   padding: 10;
+   width: 100%;
+   margin: auto;
+   text-align: center;
+}
+
+.menu td {
+   border: 1px solid gray;
+   width: 34%;
+}
+.menu .missionTdBtn {
+   border:none;
+   text-decoration: none;
+   background: transparent;
+   width: 100%;
+   cursor: pointer;
+}

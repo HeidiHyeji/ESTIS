@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+.mainbar {
+	background-color : #687672;
+	color : white;
+	width : 100%;
+	height : 100%;
+	text-align : left;
+	font-size : 23px;
+}
+.missiontitle b{
+	font-size: 30px;
+	padding: 5px;
+}
+hr.titleline{
+	border-top: 3px solid #687672; 
+	margin-left: 5px; 
+	width: 100%; 
+	text-align: right;
+}
+
+.mainchart{
+	width: 50%; 
+	height: 400px;
+	float:left; 
+	border:1px solid #333;
+
+	background-color: #f2f5f5;
+}
+.subchart{
+	
+	width: 50%; 
+	height: 120px;
+	float:left;
+	 border:1px solid #333;
+	 	-webkit-box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.18);
+	box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.18);
+	background-color: #f2f5f5;
+}
+.subchart2{
+	
+	width: 50%; 
+	height: 120px;
+	float:right; 
+	border:1px solid #333;
+		-webkit-box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.18);
+	box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.18);
+	background-color: #f2f5f5;
+}
+.mainchartdiv{
+	position: relative;
+	width:100%;
+}
+.subchartdiv{
+	width:100%;
+	position: relative; top: -70px;
+	
+}

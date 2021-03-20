@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+hr {
+	background-color: black;
+}
+
+.imff_mL {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ddd;
+	font-size: 20px;
+	text-align:center;
+}
+.imff_mL th, tr{
+	border-bottom:1px solid #ddd;
+}

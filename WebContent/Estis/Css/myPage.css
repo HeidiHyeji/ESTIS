@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+body {
+   font-family: "Lato", sans-serif;
+}
+h3{
+   text-align: center;
+}
+
+.myPage hr{
+   border: thin solid #ccc;
+}
+.myPage{
+   padding: 16px;
+}
+.myPageTable {
+   margin-top : 10px;
+   border-collapse: collapse;
+   width: 100%;
+   text-align: center;
+}
+.myPageTable tr{
+    border: 1px solid #ccc;
+}
+.myPageTable td{
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.myPageTable .type{
+   width: 30%;
+   float: left;
+}
+.myPageTable .cont{
+   width: 70%;
+   float: left;
+}
+.pwchangebtn, .confirmbtn {
+    background-color: #F4E7D7;
+    color: #3F4234;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    float: left;
+    width: 50%;
+}
+
+.pwchangebtn {
+    background-color: #A1BBD0;
+    color : white;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #ddd;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion.active:after {
+    content: "\2212";
+}
+
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.myAct {
+   margin-top : 10px;
+   margin-bottom : 10px;
+   border-collapse: collapse;
+   width: 100%;
+   text-align: center;
+   border: 1px solid #ccc;
+}
+.myAct td, .myAct th{
+   padding: 12px 20px;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}

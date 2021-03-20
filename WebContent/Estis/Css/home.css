@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+.noticeContain {
+   background-color: #3F4234;
+   font-size: 12px;
+   text-align: center;
+    color: white;
+    padding : 10px;
+    height: 100%; 
+    width: 100%;
+    cursor: pointer;
+}
+.noticeContain:HOVER{
+   background-color: #7d8468;
+}
+.noticeContain img {
+   float: left;
+   width: 20px;
+   padding-left: 5px;
+   padding-top: 2px;
+}
+.noticeBnt{
+   height: 100%; 
+    width: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.buttonContain {
+   background-color: #687672;
+   font-size: 12px;
+   text-align: center;
+    color: white;
+    cursor: pointer;
+    height:100%; 
+    width:100%;
+}
+.buttonContain img {
+   padding: 5px;
+   width: 45px;
+}
+.buttonContain td {
+   padding: 15px;
+   width:50%;
+   height:100%;
+}
+.buttonContain td:hover {
+    opacity: 0.7;
+}
+.mainbar {
+   background-color : #687672;
+   color : white;
+   width : 100%;
+   height : 100%;
+   text-align : left;
+   font-size : 23px;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

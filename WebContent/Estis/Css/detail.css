@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+.container {
+    padding: 16px;
+}
+.container .list{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container hr{
+   border: thin solid #ccc;
+}
+.gallery{
+   padding-bottom: 10px; 
+   padding-top: 10px;
+}
+.galleryHit{
+   float: right; 
+   color: #FA8072;
+}
+.cancelBtn, .modifyBtn, .deleteBtn {
+    background-color: #A1BBD0;
+    color: #3F4234;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    float: left;
+    width: 33%;
+}
+
+.cancelBtn {
+   color: #3F4234;
+   background-color: #FA8072;
+}
+
+.deleteBtn{
+   color: #3F4234;
+   background-color: #a0d1a7;
+}
+.cancelBtn:HOVER, .modifyBtn:HOVER, .deleteBtn:HOVER{
+   opacity: 0.8;
+}
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelBtn, .addBtn {
+       width: 100%;
+    }
+}

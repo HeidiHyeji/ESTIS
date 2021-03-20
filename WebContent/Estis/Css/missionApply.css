@@ -1,0 +1,52 @@
+@CHARSET "EUC-KR";
+form {
+    border: 3px solid #f1f1f1;
+}
+.container {
+    padding: 16px;
+}
+.container .list{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+textarea, .apply{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.cancelBtn,.applyBtn {
+    background-color: #A1BBD0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    float: left;
+    width: 50%;
+}
+
+.cancelBtn {
+    color: #3F4234;
+    background-color: #FA8072;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+select, input[type=text]{
+   width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+    border: 1px solid #ccc;
+}

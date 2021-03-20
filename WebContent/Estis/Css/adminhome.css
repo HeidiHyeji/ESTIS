@@ -1,0 +1,245 @@
+﻿@CHARSET "UTF-8";
+* {
+  box-sizing: border-box;
+   text-decoration: none !important ;
+}
+body{
+   background-color:#f2f5f5 !important;
+   
+}
+
+.mainbar {
+   background-color: #687672;
+   color : white;
+   width : 100%;
+   height : 100%;
+   text-align : left;
+   font-size : 23px;
+   text-decoration:none !important ;
+}
+.adminlinegraph {
+   margin: 20px;
+   width: 45.5%;
+   heigh: 300px;
+   font-size: 13px;
+   display: inline-block;
+   -webkit-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   -moz-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+}
+
+.adminlinegraph2 {
+   margin: 20px;
+   width: 45.5%;
+   heigh: 300px;
+   font-size: 13px;
+   display: inline-block;
+   -webkit-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   -moz-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+}
+
+.adminhometable table {
+   width: 100%;
+   margin: 15px 0;
+}
+
+.adminhometable th {
+   background-color: #A1BBD0;
+   color: #000000;
+   heigh: 30;
+}
+
+.adminhometable td {
+   background-color: #F4E7D7;
+   color: #000000;
+   heigh: 70;
+}
+
+.adminhometable, .adminhometable th, .adminhometable td {
+   font-size: 13px;
+   text-align: center;
+   padding: 20px;
+   border-spacing: 20px 0px;
+}
+
+.datestyle {
+   font-size: 13px;
+   color: #A1BBD0;
+}
+
+ult, lit {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-size: 10pt;
+}
+/*탭 콘텐츠*/
+.image_list {
+   clear: both;
+   overflow: hidden;
+   position: relative;
+   height: 150px;
+   width: 100%;
+   border: 1px solid #e1e1e1;
+   cursor: pointer;
+   background: #ffff;
+   -webkit-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   -moz-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   
+}
+
+.image_list .images {
+   position: absolute;
+   display: none;
+}
+
+/*탭 헤드*/
+.tab {
+   width: 600px;
+   cursor: pointer;
+   float: right;
+   margin-right: -250px;
+   }
+
+.tab lit {
+   width: 70px;
+   float: left;
+   border-right: 1px solid #e1e1e1;
+   border-top: 1px solid #e1e1e1;
+   padding: 7px;
+   white-space:nowrap;
+
+}
+
+.tab lit.fir {
+   border-left: 1px solid #e1e1e1;
+}
+
+.tab_icon {
+   width: 600px;
+   cursor: pointer;
+}
+
+.tab_icon lit {
+   float: left;
+}
+
+.tab lit.tabOutClass {
+   font-weight: normal;
+   font-size: 10px;
+   color: #707070;
+   background-color: #D0D0D0
+}
+
+.tab lit.tabOverClass {
+   font-weight: bold;
+   font-size: 10px;
+   color: #000;
+   background-color: #fff;
+}
+
+#right_banner {
+   position: fixed;
+   float: right;
+   width: 210px;
+   height: 200px;
+   margin-right: -50%;
+   top: 51px;
+   right: 50%;
+   
+}
+#right_banner header{background-color: #a1bbd0;}
+.admindiv {
+   width: 100%;
+   margin-top: 20px;
+   padding: 10px;
+   display: table-cell;
+}
+
+.adminhometop {
+   border: 1px solid #e1e1e1;
+   width: 19%;
+   height: 100px;
+   padding: 10px;
+   display: inline-block;
+   background: #ffff;
+   -webkit-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   -moz-box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+   box-shadow: 0px 7px 3px -7px rgba(130, 123, 130, 1);
+}
+
+.counter {
+   font-size: 30px;
+   color: #000;
+}
+
+.graphdiv {
+   border: 1px solid #e1e1e1;
+   height: auto;
+   margin: 20px;
+   display: inline-block;
+}
+
+.admindiv2 {
+   margin-top: 20px;
+   display: table-cell;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f4234;
+}
+
+li {
+    float: left;
+    width:50%;
+    height:100%;
+}
+
+li a {
+   
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+   
+    font-size:10px;
+    padding-left: 31px;
+    
+    
+}
+
+li a:hover {
+    background-color: #333333;
+}
+lif{
+   text-align: left !important;
+}        
+r{
+   text-align: right !important;
+   float:right !important;
+   padding-right:-100px !important;
+   
+} 
+        
+        
+        
+      
+        
+        
+        
+/*
+.adminhometable tr:nth-child(odd){
+   background-color:#ebf7fd;
+}
+.adminhometable tr:nth-child(even){
+   background-color:#fdfdfd;
+}
+
+*/

@@ -1,0 +1,64 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+.mpbar {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.mpbar td {
+	border: 1px solid black;
+	width: 50%;
+	cursor: pointer;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #ddd;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.myPage {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10;
+	width: 100%;
+	margin:10;
+	text-align: center;
+}
+.myPage td{
+	border: 1px solid black;
+}
