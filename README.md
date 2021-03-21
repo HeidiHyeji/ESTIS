@@ -2,16 +2,13 @@
 ## Exchange StudenT orIentation Service
 #### It is a community site to help international students adapt to school life.
 
-### 1. Skiis
-
-👩‍💻 
+### 1. Skiis👩‍💻 
 - Java, Servlet Programming
 - MariaDB
 - HYPEICE, Google Developers Charts
 
 ### 2. Services
-
-👔 Admin page
+**👔 Admin page**
 - Dashboard(Site Usage,Server CPU,Memory)
 
 ![그림2](https://user-images.githubusercontent.com/22677083/111894443-19ced680-8a4e-11eb-8055-f227e2c2499a.png)
@@ -24,7 +21,7 @@
 
 ![그림4](https://user-images.githubusercontent.com/22677083/111894447-1cc9c700-8a4e-11eb-9f6e-195882cd3612.png)
 
-😀 User page
+**😀 User page**
 - Integrated search
 
 - Enroll Program / Participation Program History
