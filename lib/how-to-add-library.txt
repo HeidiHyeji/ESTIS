@@ -1,0 +1,8 @@
+1. project-properties에서 sigar.jar,log4j.jar 추가
+2. webcontents-WEB-INF-lib에서 sigar.jar,log4j.jar 추가
+3. webcontents-WEB-INF-lib에서 sigar-bin-lib에 있는 모든 내용 추가
+3. 에러날 경우 c:\사용자\workspace\ESTIS(프로젝트 경로)에 
+ sigar-lib안에 있는 sigar-amd64-winnt.dll 추가
+(.settings,src,build폴더...와 같은 위치) 
+4. 또 에러나면 c:\사용자\workspace\ESTIS(프로젝트 경로)\webcontent에 추가
+(Estis,META-INF,WEB-INF..와 같은 위치)
