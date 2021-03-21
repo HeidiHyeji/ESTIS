@@ -39,5 +39,6 @@
 
 ### 3. Degisn
 Project processes such as requirement analysis and design can be seen in the ppt below.
+🎞  https://youtu.be/NB0InEfoGLA
 🔗 https://drive.google.com/file/d/1uO1duNldtCISsStNP9ADSiLGcI878bgi/view?usp=sharing
 
