@@ -38,7 +38,7 @@
 ![그림11](https://user-images.githubusercontent.com/22677083/111894459-26532f00-8a4e-11eb-8119-66a13d588b71.jpg)
 
 ### 3. Degisn
-Project processes such as requirement analysis and design can be seen in the ppt below.
+Project processes such as requirement analysis and design can be seen in the ppt below.  
 🎞  https://youtu.be/NB0InEfoGLA
 🔗 https://drive.google.com/file/d/1uO1duNldtCISsStNP9ADSiLGcI878bgi/view?usp=sharing
 
